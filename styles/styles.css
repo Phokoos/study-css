@@ -1,0 +1,71 @@
+body {
+	background-color: aqua;
+}
+
+.hello,
+.hello-two {
+	font-weight: 500;
+	color: orange;
+}
+
+.menu>li {
+	border: 1px solid tomato;
+}
+
+a[href="https://htmlreference.io"] {
+	color: teal;
+}
+
+a[href="https://cssreference.io"] {
+	color: orange;
+}
+
+a[href="https://www.youtube.com"] {
+	color: tomato;
+}
+
+.hover .link {
+	color: teal;
+}
+
+.hover .link:hover {
+	color: tomato;
+}
+
+.focus .social-links .link {
+	color: teal;
+}
+
+.focus .social-links .link:hover,
+.focus .social-links .link:focus {
+	color: orange;
+}
+
+.focus .social-links .link:active {
+	color: red;
+}
+
+.focus .social-links .link:visited {
+	color: green;
+}
+
+
+
+
+
+
+.train-pseudo .schedule-body>tr:hover {
+	background-color: tomato;
+	color: white;
+}
+
+/* Оформлення таблиці */
+.train-pseudo .schedule {
+	border-collapse: collapse;
+}
+
+.train-pseudo .schedule th,
+.schedule td {
+	padding: 8px;
+	border: 1px solid #212121;
+}
