@@ -49,11 +49,6 @@ a[href="https://www.youtube.com"] {
 	color: green;
 }
 
-
-
-
-
-
 .train-pseudo .schedule-body>tr:hover {
 	background-color: tomato;
 	color: white;
@@ -68,4 +63,29 @@ a[href="https://www.youtube.com"] {
 .schedule td {
 	padding: 8px;
 	border: 1px solid #212121;
+}
+
+
+:root {
+	--brand-color: #1e3be0;
+	--first-color: #7d8ce0;
+	--second-color: #4c5271;
+}
+
+
+.variables-list {
+	color: var(--first-color);
+	background-color: var(--brand-color, red);
+}
+
+.variables-list-item-one {
+	color: var(--first-color);
+}
+
+.variables-list-item-two {
+	color: var(--second-color);
+}
+
+.variables-list-item-three {
+	color: var(--first-color);
 }
