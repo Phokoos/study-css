@@ -1,5 +1,7 @@
 body {
-	background-color: aqua;
+	background-color: rgba(18, 77, 227, 0.465);
+	font-family: 'Rubik Dirt',
+		cursive;
 }
 
 .hello,
@@ -65,13 +67,12 @@ a[href="https://www.youtube.com"] {
 	border: 1px solid #212121;
 }
 
-
+/* Variables */
 :root {
 	--brand-color: #1e3be0;
 	--first-color: #7d8ce0;
 	--second-color: #4c5271;
 }
-
 
 .variables-list {
 	color: var(--first-color);
@@ -88,4 +89,51 @@ a[href="https://www.youtube.com"] {
 
 .variables-list-item-three {
 	color: var(--first-color);
+}
+
+/* text-align  */
+.post-title {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-justify {
+	text-align: justify;
+}
+
+/* line-height */
+.line-height {
+	line-height: 1.5;
+	color: tomato;
+}
+
+/* text-shadow */
+.text-shadow {
+	color: teal;
+	text-shadow: 2px 2px 10px #ff0000,
+		5px 5px 5px teal;
+}
+
+/* white-space */
+.white-space {
+	width: 300px;
+}
+
+.white-space-normal {
+	white-space: normal;
+}
+
+.white-space-nowrap {
+	white-space: nowrap;
+}
+
+.white-space-pre {
+	white-space: pre;
+}
+
+.white-space-pre-wrap {
+	white-space: pre-wrap;
 }
