@@ -1,139 +1,109 @@
 body {
 	background-color: rgba(18, 77, 227, 0.465);
-	font-family: 'Rubik Dirt',
-		cursive;
+	font-family: 'Roboto',
+		sans-serif;
+	font-size: 30px;
 }
 
-.hello,
-.hello-two {
-	font-weight: 500;
-	color: orange;
+
+.box-sizing {
+	background-color: aqua;
+	padding: 50px;
 }
 
-.menu>li {
-	border: 1px solid tomato;
-}
-
-a[href="https://htmlreference.io"] {
-	color: teal;
-}
-
-a[href="https://cssreference.io"] {
-	color: orange;
-}
-
-a[href="https://www.youtube.com"] {
-	color: tomato;
-}
-
-.hover .link {
-	color: teal;
-}
-
-.hover .link:hover {
-	color: tomato;
-}
-
-.focus .social-links .link {
-	color: teal;
-}
-
-.focus .social-links .link:hover,
-.focus .social-links .link:focus {
-	color: orange;
-}
-
-.focus .social-links .link:active {
-	color: red;
-}
-
-.focus .social-links .link:visited {
-	color: green;
-}
-
-.train-pseudo .schedule-body>tr:hover {
+.box-sizing .one {
 	background-color: tomato;
+	height: 200px;
+	margin: 10px;
+	border: 10px solid black;
+}
+
+.box-sizing .two {
+	background-color: green;
+	height: 200px;
+	margin: 10px;
+	border: 10px dashed black;
+}
+
+.box-sizing .three {
+	background-color: rgb(113, 128, 0);
+	height: 200px;
+	margin: 10px;
+	border: 10px dotted black;
+}
+
+.box {
+	height: 100px;
+	/* Встановить стилі верхньої рамки */
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: blue;
+
+	/* Встановить стилі правої рамки */
+	border-right-width: 5px;
+	border-right-style: dotted;
+	border-right-color: black;
+
+	/* Встановить стилі нижньої рамки */
+	border-bottom-width: 7px;
+	border-bottom-style: dashed;
+	border-bottom-color: palevioletred;
+
+	/* Встановить стилі лівої рамки */
+	border-left-width: 9px;
+	border-left-style: dashed;
+	border-left-color: green;
+}
+
+
+.box-1 {
+	margin-top: 40px;
+	width: 180px;
+	height: 80px;
+	background-color: #f44336;
+
+	/*  The value can be pixels  */
+	border-radius: 10px;
+
+
+
+}
+
+.box-2 {
+	width: 120px;
+	height: 120px;
+	background-color: #2196f3;
+
+	/*  The value can be percent  */
+	border-radius: 20%;
+}
+
+.box-3 {
+	width: 150px;
+	height: 150px;
+	background-color: #4caf50;
+
+	/*  If the block is a square, settings the radius to 50% will transform it to a circle  */
+	border-radius: 50%;
+}
+
+.box-1,
+.box-2 {
+	margin-bottom: 20px;
+}
+
+
+.link {
+	display: inline-block;
+	padding: 16px 32px;
+
+	border-radius: 3px;
+	background-color: teal;
 	color: white;
-}
 
-/* Оформлення таблиці */
-.train-pseudo .schedule {
-	border-collapse: collapse;
-}
-
-.train-pseudo .schedule th,
-.schedule td {
-	padding: 8px;
-	border: 1px solid #212121;
-}
-
-/* Variables */
-:root {
-	--brand-color: #1e3be0;
-	--first-color: #7d8ce0;
-	--second-color: #4c5271;
-}
-
-.variables-list {
-	color: var(--first-color);
-	background-color: var(--brand-color, red);
-}
-
-.variables-list-item-one {
-	color: var(--first-color);
-}
-
-.variables-list-item-two {
-	color: var(--second-color);
-}
-
-.variables-list-item-three {
-	color: var(--first-color);
-}
-
-/* text-align  */
-.post-title {
-	text-align: center;
-}
-
-.align-right {
-	text-align: right;
-}
-
-.align-justify {
-	text-align: justify;
-}
-
-/* line-height */
-.line-height {
-	line-height: 1.5;
-	color: tomato;
-}
-
-/* text-shadow */
-.text-shadow {
-	color: teal;
-	text-shadow: 2px 2px 10px #ff0000,
-		5px 5px 5px teal;
-}
-
-/* white-space */
-.white-space {
-	width: 300px;
-}
-
-.white-space-normal {
-	white-space: normal;
-}
-
-.white-space-nowrap {
-	white-space: nowrap;
-}
-
-.white-space-pre {
-	white-space: pre;
-}
-
-.white-space-pre-wrap {
-	white-space: pre-wrap;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
 }
